@@ -7,8 +7,8 @@ env
 cd /tmp
 mkdir deps
 cd deps
-mkdir 0
-cd 0
+mkdir IDX
+cd IDX
 
 touch config.yml
 
