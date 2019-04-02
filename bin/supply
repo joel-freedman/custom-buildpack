@@ -4,7 +4,6 @@ echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 find .
 ls -R
 
-cd app
 mkdir profile.d
 cd profile.d
 echo "echo 'this is a test'" > hello.sh
