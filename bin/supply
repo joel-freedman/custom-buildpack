@@ -2,7 +2,9 @@
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-cd deps/0
+cd deps
+mkdir 0
+cd 0
 
 mkdir profile.d
 cd profile.d
