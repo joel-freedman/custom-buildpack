@@ -1,18 +1,19 @@
 #!/bin/bash
 
+BUILD_DIR=$1
+CACHE_DIR=$2
+DEPS_DIR=$3
+DEPS_IDX=$4
+
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 env | grep 0
 
+cd $DEPS_DIR
 ls -R
 
-
-mkdir tmp
-cd tmp
-mkdir deps
-cd deps
-mkdir IDX
-cd IDX
+mkdir $DEPS_IDX
+cd $DEPS_IDX
 
 touch config.yml
 
