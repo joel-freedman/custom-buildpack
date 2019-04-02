@@ -12,8 +12,8 @@ cd $BUILD_DIR
 ls -R
 
 
-mkdir profile.d
-cd profile.d
+mkdir .profile.d
+cd .profile.d
 echo "echo 'this is a test'" > hello.sh
 chmod +x hello.sh
 echo "hello.sh created"
