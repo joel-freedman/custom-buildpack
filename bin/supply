@@ -7,7 +7,10 @@ DEPS_IDX=$4
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-env | grep 0
+
+cd $BUILD_DIR
+ls -R
+
 
 cd $DEPS_DIR
 cd $DEPS_IDX
