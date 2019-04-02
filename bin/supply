@@ -1,10 +1,12 @@
 #!/bin/bash
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo $IDX
 
-env
+ls
 
-cd /tmp
+mkdir tmp
+cd tmp
 mkdir deps
 cd deps
 mkdir IDX
@@ -17,4 +19,6 @@ cd profile.d
 echo "echo 'this is a test'" > hello.sh
 chmod +x hello.sh
 echo "hello.sh created"
+cat hello.sh
+echo "end of hello.sh"
 pwd
