@@ -1,12 +1,16 @@
 #!/bin/bash
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-mkdir /tmp
+
+env
+
 cd /tmp
 mkdir deps
 cd deps
 mkdir 0
 cd 0
+
+touch config.yml
 
 mkdir profile.d
 cd profile.d
