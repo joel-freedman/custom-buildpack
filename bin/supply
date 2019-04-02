@@ -10,12 +10,7 @@ echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 env | grep 0
 
 cd $DEPS_DIR
-ls -R
-
-mkdir $DEPS_IDX
 cd $DEPS_IDX
-
-touch config.yml
 
 mkdir profile.d
 cd profile.d
