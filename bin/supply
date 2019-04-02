@@ -12,9 +12,6 @@ cd $BUILD_DIR
 ls -R
 
 
-cd $DEPS_DIR
-cd $DEPS_IDX
-
 mkdir profile.d
 cd profile.d
 echo "echo 'this is a test'" > hello.sh
