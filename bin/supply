@@ -2,15 +2,11 @@
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
-cd app
-
-find .
+cd deps/0
 
 mkdir profile.d
 cd profile.d
 echo "echo 'this is a test'" > hello.sh
 chmod +x hello.sh
 echo "hello.sh created"
-echo ./hello.sh
 pwd
-find .
