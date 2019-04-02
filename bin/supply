@@ -1,11 +1,16 @@
 #!/bin/bash
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-find .
-ls -R
 
 cd app
+
+find .
+
 mkdir profile.d
 cd profile.d
 echo "echo 'this is a test'" > hello.sh
 chmod +x hello.sh
+echo "hello.sh created"
+echo ./hello.sh
+pwd
+find .
