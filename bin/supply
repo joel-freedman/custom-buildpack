@@ -1,9 +1,11 @@
 #!/bin/bash
 
 echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo $IDX
 
-ls
+env | grep 0
+
+ls -R
+
 
 mkdir tmp
 cd tmp
